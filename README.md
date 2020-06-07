@@ -1,5 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Introduction
+
+This is a dashboard of admin for marketing analysis of Coca Cola. Was created for the hackathon.
+
+
+<img src="/screen.png"/>
+
 ## Available Scripts
 
 In the project directory, you can run:
