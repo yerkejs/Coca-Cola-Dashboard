@@ -1,0 +1,8 @@
+.Wrapper, body {
+  padding: 0;
+  margin: 0;
+}
+
+h1, label, p {
+  font-family: "Ubuntu"
+}

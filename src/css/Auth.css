@@ -1,0 +1,93 @@
+.Auth {
+  padding: 25px 8%;
+  width: calc(100% - 16%);
+  height: calc(100% - 112px);
+  min-height: calc(100vh - 112px);
+  font-size: 14px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+/* POSITIONS */
+.wall {
+  position: absolute;
+  z-index: -1; right: 0;
+  bottom: 0; max-width: 800px;
+  width: 50%;
+}
+.Auth .content {
+  z-index: 2;
+}
+.callback {
+  border: none;background-color: unset;
+  color: #f64747;
+  font-size: 14px; font-weight: 700;
+  font-family: "Ubuntu"
+}
+
+.Auth h1 {
+  font-weight: 900;
+  font-size: 40px;
+  color: #29323c;
+  line-height: 100%;
+  margin-bottom: 20px;
+  letter-spacing: -1px;
+}
+.Auth p {
+  font-size: 16px;
+}
+.Auth form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.Auth input, .Zhaloba textarea {
+  width: 100%;
+  max-width: 450px;
+  min-width: 230px;
+  background-color: #e2e6e6;
+  height: 48px; padding: 0 25px;
+  margin-bottom: 15px; border: 1px solid transparent;
+}
+.Auth input, .Auth textarea {
+  font-size: 16px;
+  color: #29323c;
+  font-weight: 700;
+  font-family: "Ubuntu";
+  border-radius: 4px;
+}
+.Auth textarea {
+  padding: 25px;
+}
+.Auth form button {
+  border: none; padding: 0px 25px;
+  height: 48px; font-size: 16px;
+  font-weight: 700; font-family: "Ubuntu";
+  background-color: #f64747; color: #fff;
+  border-radius: 4px;
+}
+@media (max-width: 1024px) {
+  .Auth p {
+    width: calc(50% + 50px);
+  }
+  .wall {
+    width: 80%;
+    opacity: 0.4;
+  }
+}
+@media (max-width: 500px) {
+  .Auth p {
+    width: 100%;
+  }
+  .Auth input, .Auth textarea {
+    width: calc(100% - 50px);
+    min-width: 0;
+  }
+  .wall {
+    opacity: 0.7;
+  }
+}

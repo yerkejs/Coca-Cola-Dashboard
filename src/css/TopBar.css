@@ -1,0 +1,91 @@
+.Today {
+  width: 100%;
+  padding-top: 40px;
+}
+.Today .header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.Today .header h1 {
+  line-height: 100%;
+  margin: 0;
+  padding: 0
+}
+.Today .header .predict {
+  margin-bottom: 20px;
+}
+.Today .headers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0 25px;
+}
+.Today .card {
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.Today .card .texts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.Today .card .icon {
+  width: 40px;
+  padding: 15px;
+  border-radius: 35.5px;
+  height: 40px;
+}
+.Today .card .texts .secondary {
+  opacity: 0.6;
+}
+.Today .card .texts .primary {
+  font-size: 35px;
+  font-weight: 900;
+  margin-top: 12px;
+  color: #333;
+}
+
+
+
+.neu-card {
+  border-radius: 14px;
+  background: #f1f3f6;
+  box-shadow:
+    inset 0 0 15px rgba(55, 84, 170, 0),
+    inset 0 0 20px rgba(255, 255, 255, 0),
+    10px 10px 18px rgba(55, 84, 170, 0.15),
+    -10px -10px 22px white,
+    inset 0px 0px 4px rgba(255, 255, 255, 0.2);
+}
+.neu-icon {
+  box-shadow: 5px 5px 8px rgba(163, 177, 198, 0.6),
+        -5px -5px 8px rgba(255, 255, 255, 0.5),
+         inset 1.5px 1.5px 3.5px rgba(136, 165, 191, 0.48),
+        inset -1.5px -1.5px 3.5px #FFFFFF;
+  background: linear-gradient(318.32deg, rgba(163, 177, 198, 0.1) 0%, rgba(230, 230, 230, 0.1) 55%, rgba(255, 255, 255, 0.25) 100%)
+}
+.simpleButton {
+    padding: 8px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+}
+.neu-button {
+  border: 1px solid rgba(255,255,255,0.2);
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(163, 177, 198, 0.6),
+             -5px -5px 10px rgba(255, 255, 255, 0.5);
+}
+@media (max-width: 787px) {
+  .Today .headers {
+    grid-template-columns: 1fr;
+    grid-gap: 20px 0;
+  }
+}

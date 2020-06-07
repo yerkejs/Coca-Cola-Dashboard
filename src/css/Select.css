@@ -1,0 +1,40 @@
+.Select {
+  position: relative;
+  z-index: 2;
+  margin-right: 15px;
+}
+.Select:nth-child(1) {
+  z-index: 5;
+}
+.CurrentOption {
+  width: 160px;
+  padding: 10px 20px;
+  background: #efeff6;
+  text-align: center;
+  height: 40px;
+  display: flex;align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.neu-inset {
+  box-shadow: inset 3px 3px 7px rgba(171, 191, 210, 0.44),
+              inset -3px -3px 7px #FFFFFF
+}
+
+.options {
+  position: absolute;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #efeff6;
+  width: 160px;
+  border-radius: 8px;
+  color: 0.6;
+  border: 2px #e3e3ef solid;
+  z-index: 20;
+}
+.Option {
+  padding: 4px 0;
+  text-align: center;
+}
